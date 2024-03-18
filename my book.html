@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Technology </title>
+
+</head>
+<body bgcolor="sykblue">
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+<body bgcolor="orange">
+    <p><h1 style="color: indigo;text-align: center;font-family: Elephant;font-weight: bold;">RITCO MANAGEMENT SYSTEM</h1></p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline;  margin-right: 10px"><a href="./home.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">HOME</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./about.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">ABOUT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./contact.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">CONTACT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./services.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">SERVICES</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./form.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">FORM</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./table.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">TABLE</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./mybook.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">MYBOOK</a></li>
+    </ul></center>
+
+	</p>
+	<h1>RITCO MANAGEMENT SYSTEM</h1>
+	<ol><h2><u><li>DATABASE TECHNOLOGY</li></u></h2>
+		<p>Database name used: <b>gisa_patrick_r_m_s.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b> gisa_patrick_r_m_s Table</b></li>
+
+			<p>
+			tables in this database are based on ritco management system where ther store data of customer,bus,driver and other.
+           </p></br>
+
+			<li><b>Ticket Table</b></li>
+
+			<p>This table connect customer with bus and driver,and it has foregin key of bus_id,customerid,driverid.</p> </br>
+
+
+			<li><b>busTable</b></li>
+
+			<p>
+				this store all bus the company has and there names.
+			</p></br>
+
+			<li><b>driver CLASS</b></li>
+
+			<p>This shows all driver the company has and help to modify the table.</p></br>
+
+            <li><b>customer CLASS</b></li>
+
+			<p>this help customer to register and buy ticket.</p></br>
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+			       <ol type="a"><li><b>Attributes of ticket Table</b></li>
+
+
+    <ol type="i"><li><p><b><i>ticket_Id:</i></b> The column which are represents  id of ticket PRIMARY key also auto-increment (AUTO_INCREMENT).</br>
+   AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record.</br></p></li>
+
+    <li><p><b><i>bus_id:</i></b>  A unique identifier for the bus.</br></p></li> 
+
+    <li><p><b><i>customer_id:</i></b>  A unique identifier for the customer.</br></p></li>
+
+
+   <li><p><b><i>driver_id:</i></b>  A unique identifier for the driver</br></p></li>
+  <li><p><b><i>ticket_form:</i></b> ticket_form:holds the type of ticket</br></p></li>
+
+    <li><p><b><i>ticket_to:</i></b> ticket_to:the customer router to him/her</br></p></li>
+    <li><p><b><i>ticket_date:</i></b> date of the ticket.</br></p></li></ol>
+
+
+
+                    <li><b>Attributes of bus CLASS</b></li></br>
+
+    this store all bus the company has and there names:</br>
+
+
+<ol type="i"><li><p><b><i>bus_Id:</i></b> A unique identifier for the bus</br></p></li>
+
+<li><p><b><i>:</i></b> The column which are represents phone number of tourist in transport table.</p></br></li>
+
+
+number if seat of customer.
+
+<li><p><b><i>bus_name:</i></b> it holds the type name of the bus.</br></p></li>
+<li><p><b><i>bus_plate_number :</i></b> the plate number of the bus.</br></p></li>
+<li><p><b><i>bus_seat_number</i></b> number if seat of customer.</br></p></li></ol>
+
+
+
+                    <li><b>Attributes of DRIVER CLASS</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in accommodation table:</br>
+
+
+
+
+
+
+<ol type="i"><li><p><b><i>driver_id:</i></b> driver_id: A unique identifier for the driver,auto-increment (AUTO_INCREMENT).</br></p></br></li>
+
+<li><p><b><i>DRIVER_name: </i></b> The first name of the driver.</p></br></li>
+
+<li><p><b><i>Driver_email:</i></b> Ththe email of rhe driver.</p></br></li>
+
+<li><p><b><i>DRIVER_MOBILE:</i></b> The contact number of the driver.</p></br></li>
+
+
+<li><p><b><i>Driver_address.</i></b> Driver_address.address of the driver</p></br></li>
+
+
+
+
+
+
+
+<li><b>Attributes of CUSTOMER_CLASS:</b></li></br>
+
+this help customer to register and buy ticket. </br>
+
+<ol type="i"><li><p><b><i>customer_id::</i></b> A unique identifier for the customer and its auto-increment (AUTO_INCREMENT).</p></br></li>
+
+
+<li><p><b><i>custmore_name: </i></b> The  name of the customer. </p></br></li>
+
+<li><p><b><i>email: </i></b> The email address of the customer.</p></br></li> 
+
+<li><p><b><i>customer_mobile : </i></b> The phone number of the customer.</p></br></li>
+
+<li><p><b><i>address: </i></b>The postal address of the customer</p></br></li> 
+</ol>
+
+                    
+
+        
+		<h2><u><li>JAVA PROGRAMMING</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>Introduction</b><br>
+ <p>The durable, scalable, and effective software system known as the RITCO Management System is built on Java programming. It is the best option for developing enterprise-level applications because of its adaptability, platform neutrality, and robust ecosystem of libraries and frameworks. Java's object-oriented architecture makes it possible to have a modular codebase that mimics RITCO's procedures and organizational structure. Java Database Connectivity </p><br>
+ 
+	<b>Tools used to develop this system in java programming</b><br>
+
+<ol type="a"><li><p><b>Eclipse IDE:</b> Eclipse is a widely-used IDE for Java development. It provides features such as code editing, debugging, and project management. You can download and install Eclipse from the official website and use it to create, edit, and debug Java code for the RITCO Management System. </p><br></li>
+
+<li><p><b>Java Development Kit (JDK): </b>  You'll need the JDK installed on your system to develop Java applications. Eclipse typically requires JDK to be configured properly for Java development </p><br></li></ol>
+
+
+
+
+
+<p><b>MySQL Connectors:</b> MySQL provides standards-based drivers for JDBC, ODBC, and .Net enabling developers to build database applications in their language.</p><br>
+
+
+
+			              <h3><u><i><li>ritco management system Form Images</li></i></u></h3>
+
+<ol type="I"><li><b><h4>login form</h4></b></br>
+<img src="C:\Users\user\Desktop\web\images/login.jpg" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>signup Form</h4></b></br>
+<img src="C:\Users\user\Desktop\web\images/signup.jpg" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>customer Form</h4></b></br>
+<img src="C:\Users\user\Desktop\web\images/customer.jpg" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>driver Form</h4></b></br>
+<img src="C:\Users\user\Desktop\web\images/drivers.jpg" width=900 height=300><br><br><br><br><br>
+
+<li><b><h4>ticket Form</h4></b></br>
+<img src="C:\Users\user\Desktop\web\images/tickett.jpg" width=900 height=300><br><br><br><br><br>
+
+<li><b><h4>bus Form</h4></b></br>
+<img src="C:\Users\user\Desktop\web\images/bus.jpg" width=900 height=300><br><br><br><br><br>
+</li></ol>
+
+</ul></ol>
+	<p><u>conclusion </u><br>
+		In conclusion, the RITCO Management System in Java represents a powerful and versatile solution that empowers organizations to enhance efficiency, productivity, and decision-making across various management domains.<br> By leveraging Java's robust ecosystem and adhering to best practices in software development, the system delivers tangible benefits and value to organizations seeking to streamline their operations and achieve their management objectives.</p>
+        <p><marquee>&copy; RITCO MANAGEMENT SYSTEM</marquee></p>
+	</body>
+	</html>
+</body>
+</html>
